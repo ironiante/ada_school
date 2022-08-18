@@ -41,7 +41,12 @@ public class types {
   static void others(){
       double y = 3.14F;
       boolean z = true;
+      byte a= 1;
+      char b= 'c';
       String name = "jirman";
+      short c= 123;
+      long d=98888888;
+      float e= 3.1416f;
       System.out.println(" estos numeros y datos son:" + y + " " + z + " " + name);
   }
 
