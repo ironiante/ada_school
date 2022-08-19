@@ -1,3 +1,5 @@
+package plataforma;
+
 public class Truncation {
     /**
      * se utiliza para recortar los numeros cuando se utiliza double y float

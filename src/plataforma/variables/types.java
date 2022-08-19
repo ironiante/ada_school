@@ -1,7 +1,7 @@
-package variables;
+package plataforma.variables;
 
 /**
- * Existen 8 tipos de datos para variables primitivas en Java:
+ * Existen 8 tipos de datos para plataforma.variables primitivas en Java:
  * boolean size --> 1 byte
  * byte    size --> 1 byte
  * char    size --> 1 byte
