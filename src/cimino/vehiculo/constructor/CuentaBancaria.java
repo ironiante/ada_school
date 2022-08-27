@@ -15,7 +15,17 @@ public class CuentaBancaria {
         setMoneda(moneda);
         setTipo(tipo);
     }
+    public CuentaBancaria( String moneda, String tipo) {
+        this("Alias.por.Defecto",moneda,tipo); // una de la funciones del this
+    }
+    /**
+     * sobre carga de constructores, se hace de uno otro, para que
+     * no pase por paramatros los atributos
+     *
+     */
+    public CuentaBancaria(){ // constructor vacio
 
+    }
 
     // metodos
 
