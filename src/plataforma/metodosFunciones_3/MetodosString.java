@@ -20,7 +20,15 @@ package plataforma.metodosFunciones_3;
  * name.toLowerCase(); // Metodo que retorna la misma cadena convertida toda a minuscula
  * name.replace('e', 'i'); // Metodo que busca la o las coincidencias del primer caracter pasado por arugumento y los remplaza por el caracter pasado como segundo argumento
  */
- String name = "jirman";
+  public static void main(String[] args) {
+      String  name = "jirman";
+      int pos = name.indexOf("r");
+      char retornarposision = name.charAt(5);
+
+      System.out.println("la posicion es"+ " " +  pos);
+      System.out.println("Metodo para retornar el caracter indicado como indice" + " " + retornarposision );
+  }
+
 
 
 }
