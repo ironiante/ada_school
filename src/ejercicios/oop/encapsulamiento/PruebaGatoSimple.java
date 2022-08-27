@@ -18,7 +18,9 @@ public class PruebaGatoSimple {
         garfiel.maulla();
         tom.maulla();
         lisa.maulla();
-
+        lisa.peleaCon(tom);
+        garfiel.peleaCon(lisa);
+        tom.peleaCon(garfiel);
 
 
     }

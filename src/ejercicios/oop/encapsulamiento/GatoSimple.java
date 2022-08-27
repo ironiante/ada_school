@@ -30,7 +30,16 @@ public class GatoSimple {
         }
 
     }
-   void peleaCon(GatoSimple contrincante){            // pasar por parametro un objeto
+   void peleaCon(GatoSimple contrincante){  // pasar por parametro un objeto
+        if (this.sexo.equals("hembra")){
+            System.out.println("no me gusta pelear");
+        }else {
+            if (contrincante.getSexo().equals("hembra")){
+                System.out.println("no peleo con gaticas");
+            }else {
+                System.out.println("ponte bueno");
+            }
+        }
    }
 }
 

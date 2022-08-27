@@ -13,7 +13,7 @@ public class Metodos {
 
     }
 // ejemplo 2, no retorna
-public void greeting(String name){ // saludo
+public void greeting(MetodosString name){ // saludo
 
 }
 
