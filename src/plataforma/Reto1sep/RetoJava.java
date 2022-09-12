@@ -17,6 +17,7 @@ public class RetoJava {
         int filas;
         int columnas;
         int[][] a;
+        // falta
 
     }
 
