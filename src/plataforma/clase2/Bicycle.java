@@ -22,4 +22,19 @@ public class Bicycle {
     public int getSize() {
         return size;
     }
+
+    @Override
+    public String toString() {
+        return "Bicycle{" +
+                "serial='" + serial + '\'' +
+                ", brand='" + brand + '\'' +
+                ", size=" + size +
+                '}';
+    }
+
+    public static void main(String[] args) {
+        Bicycle bicy = new Bicycle("veinte y dos","pepito",13);
+        System.out.println(bicy);
+
+    }
 }
