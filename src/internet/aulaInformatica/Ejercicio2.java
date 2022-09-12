@@ -96,6 +96,9 @@ public class Ejercicio2 {
 
      return r;
     }
+    /**
+     * genere un metodo al que le llegue como parametro una array bidimensional y que devuelva un array de eneteros
+     */
 
 
 }
